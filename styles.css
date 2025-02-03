@@ -41,6 +41,7 @@ input, button, textarea, select {
 /* START */
 
 :root {
-    --color-create-button: #596D48;
+    --color-primary-green: #596D48;
     --color-input-border: #E5E7EB;
 }
+
