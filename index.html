@@ -14,14 +14,16 @@
       </div>
     </header>
     <main>
-        <p>
-          This is not a real online service! You know you need something<br />
-          like this in your life to help you realize your deepest dreams.<br />
-          Sign up <em>now</em> to get started.<br />
-          <br />
-          You <em>know</em> you want to.
-        </p>
-        <div class="form__container">
+        <section>
+          <p>
+            This is not a real online service! You know you need something<br />
+            like this in your life to help you realize your deepest dreams.<br />
+            Sign up <em>now</em> to get started.<br />
+            <br />
+            You <em>know</em> you want to.
+          </p>
+        </section>
+        <section class="section--white">
           <form action="#">
               <h4>Let's do this!</h4>
               <fieldset>
@@ -42,15 +44,18 @@
               </fieldset>
               <fieldset>
                   <label for="password">PASSWORD</label>
-                  <input type="password" name="password" id="password" required>
+                  <input class="password" type="password" name="password" id="password" required>
               </fieldset>
               <fieldset>
                   <label for="confirm-password">CONFIRM PASSWORD</label>
-                  <input type="password" name="confirm-password" id="confirm-password" required>
+                  <input class="password" type="password" name="confirm-password" id="confirm-password" required>
               </fieldset>
           </form>
-        </div>
-        <p>Already have an account? <a href="#">Log in</a></p>
+        </section>
+        <section>
+          <button type="submit">Create Account</button>
+          <p>Already have an account? <a href="#">Log in</a></p>
+        </section>
     </main>
   </body>
 </html>
