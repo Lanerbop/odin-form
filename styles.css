@@ -1,3 +1,11 @@
+@font-face {
+  font-family: 'Norse Bold';
+  src: url(./resources/Norse-Bold.otf)
+  format('opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+
 /* RESET */
 
 *,
@@ -55,6 +63,11 @@ header {
   background-image: url(./resources/images/halie-west-25xggax4bSA-unsplash.jpg);
   background-size: cover;
   background-position-x: center;
+}
+
+header h1 {
+  font-family: 'Norse Bold';
+  font-size: 5.5rem;
 }
 
 .logo__container {
